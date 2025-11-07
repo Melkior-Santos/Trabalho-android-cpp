@@ -16,9 +16,9 @@
     * Operadores (+,-,*,/)
 
 * Lógica condicional
-    * If/Else
+    * ~~If/Else
         * Comparações
-        * Booleanos
+        * Booleanos~~
     * For, Whiles e Do whiles
     * Switch case
 
