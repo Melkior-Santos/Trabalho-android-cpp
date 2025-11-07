@@ -1,5 +1,9 @@
 # O que precisa ser feito:
-* Olá mundo
+~~* Olá mundo~~
+* Input/Output
+    ~~* cin~~
+    * getline
+    <!-- * getchar -->
 * Aritmética
     * Tipos de variáveis
         * int
