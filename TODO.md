@@ -6,8 +6,8 @@
     <!-- * getchar -->
 * Aritmética
     * Tipos de variáveis
-        ~~* int
-        * float~~
+        * ~~int~~
+        * ~~float~~
         * bool
         * char
         * string
