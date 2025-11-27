@@ -1,0 +1,43 @@
+Objetivo: Aprender a criar e exibir informações básicas no console do C++.
+
+Conceitos Principais:
+
+    - Variáveis: São como caixinhas que armazenam dados. Você precisa declarar o tipo de dado que cada uma guarda
+
+    - Tipos Numéricos:
+
+        int → números inteiros (ex: 5, -10, 1000)
+
+        double → números com casas decimais (ex: 3.14, -2.5, 9.99)
+
+    cout: É o comando que usamos para "imprimir" ou mostrar informações na tela
+
+Passo a Passo:
+
+    Declare suas variáveis sempre no início, especificando o tipo:
+    
+    {
+      int idade = 25;
+      double altura = 1.75;
+    }
+
+Use cout para exibir valores:
+
+    {
+      cout << "Minha idade é: " << idade;
+    }
+
+Encadeie múltiplos valores usando <<:
+
+    {
+      cout << "Idade: " << idade << " - Altura: " << altura;
+    }
+
+Pule linhas com endl ou \n:
+
+    {
+      cout << "Primeira linha" << endl;
+      cout << "Segunda linha\n";
+    }
+
+Dica Importante: Sempre termine as linhas com ponto e vírgula (;)!
