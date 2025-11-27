@@ -1,0 +1,62 @@
+Objetivo: Criar programas que tomam decisões baseadas em condições
+
+Conceitos Principais:
+
+    - if/else: Permite que seu programa escolha entre diferentes caminhos
+
+    Condições: São expressões que podem ser verdadeiras (true) ou falsas (false)
+
+    Operadores Relacionais: Comparam valores
+
+        == (igual a)
+
+        != (diferente de)
+
+        > (maior que), < (menor que)
+
+        >= (maior ou igual), <= (menor ou igual)
+
+Passo a Passo:
+
+    Comece com if e uma condição entre parênteses:
+
+    if (idade >= 18)
+    {
+       // Este código executa se a condição for VERDADEIRA
+       cout << "Você é maior de idade";
+    }
+
+Adicione else para o caso da condição ser falsa:
+
+    if (nota >= 7) 
+    {
+      cout << "Aprovado!";
+    } 
+    else
+    {
+      cout << "Reprovado!";
+    }
+
+Use else if para múltiplas condições:
+
+    if (nota >= 9) 
+    {
+      cout << "Excelente!";
+    } 
+    else if (nota >= 7) 
+    {
+      cout << "Bom!";
+    } 
+    else 
+    {
+      cout << "Precisa melhorar!";
+    }
+
+Combine condições com operadores lógicos:
+
+    if (idade >= 18 && tem_carteira == true) 
+    {
+      cout << "Pode dirigir!";
+    }
+
+Dica Importante: Use { } para delimitar blocos de código que pertencem a cada condição!
