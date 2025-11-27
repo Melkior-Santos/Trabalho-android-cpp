@@ -1,0 +1,57 @@
+Objetivo: Automatizar tarefas repetitivas e processar múltiplos elementos
+
+Conceitos Principais:
+
+    - while: Repete um bloco ENQUANTO uma condição for verdadeira
+
+    - do-while: Similar ao while, mas garante que o bloco execute PELO MENOS UMA VEZ
+
+    Variável de Controle: Uma variável que controla quantas vezes o loop executa
+
+    Incremento: Aumentar o valor da variável de controle (ex: i++)
+
+Passo a Passo:
+
+    Inicialize uma variável de controle antes do loop:
+
+    {
+      int contador = 0;
+    }
+
+Use while com uma condição de parada:
+
+
+    while (contador < 5) 
+    {
+      cout << "Número: " << contador << endl;
+      contador++; // ATUALIZE o contador!
+    }
+
+Alternativa com do-while (executa pelo menos uma vez):
+
+    {
+      int numero;
+
+      do 
+      {
+        cout << "Digite um número positivo: ";
+        cin >> numero;
+      } while (numero <= 0);
+
+Evite loops infinitos SEMPRE atualizando a variável de controle:
+
+    // ❌ ERRADO - loop infinito!
+    while (contador < 5)  
+    {
+      cout << "Preso para sempre!";
+    // contador não é atualizado
+    }
+
+    // ✅ CORRETO
+    while (contador < 5) 
+    {
+      cout << "Número: " << contador << endl;
+      contador++; // Contador é atualizado
+    }
+
+Dica Importante: Pense sempre em COMO e QUANDO seu loop vai terminar. Sempre deve haver um caminho para a condição se tornar falsa!
