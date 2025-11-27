@@ -20,7 +20,7 @@
         * ~~Comparações~~
         * ~~Booleanos~~
     * For, Whiles e Do whiles
-    * Switch case
+    * ~~Switch case~~
 
 
 
